@@ -1,12 +1,19 @@
+@font-face {
+font-family: Mario;
+src: url('SuperMario256.ttf');
+}
+
 body{
-	background-image: url('https://cdn.hipwallpaper.com/i/71/21/PYcmrN.png');
+	background-image: url('https://cdn.hipwallpaper.com/i/55/85/KZE37L.gif?fbclid=IwAR3Qibb-mvafamzg0Tg5KNRkm0Jw2pFE2yV1LJ2vUOemv90yA7sU_jBl1W0');
 	background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: 1920px;
   font-family: cursive;
 }
 
 #Cabezera{
 	position: absolute;
+	font-family: Mario;
+	color: white;
 	top: 5px;
 	left: 5%;
 	width:90%;
