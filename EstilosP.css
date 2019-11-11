@@ -1,0 +1,34 @@
+#Tabla_Info{
+
+	position: absolute;
+	top: 9%;
+	background-color: #389438;
+	left: 1%;
+	width:10%;
+	height: 87%;
+}
+
+#Tabla_Info tr td{
+	color: white;
+	height: 100px;
+	text-align: center;
+}
+
+#Tabla_Info tr td img{
+	transition: transform .2s;
+}
+
+#Tabla_Info tr td img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+#M,#L,#P,#T,#B{
+	position: absolute;
+	top: 9%;
+	left: 11%;
+	width:88%;
+	height: 87%;
+	overflow: auto;
+}
+
