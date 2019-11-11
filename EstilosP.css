@@ -1,4 +1,4 @@
-#Tabla_Info{
+#Tabla_Nav{
 
 	position: absolute;
 	top: 9%;
@@ -8,17 +8,17 @@
 	height: 87%;
 }
 
-#Tabla_Info tr td{
+#Tabla_Nav tr td{
 	color: white;
 	height: 100px;
 	text-align: center;
 }
 
-#Tabla_Info tr td img{
+#Tabla_Nav tr td img{
 	transition: transform .2s;
 }
 
-#Tabla_Info tr td img:hover{
+#Tabla_Nav tr td img:hover{
 	transform: scale(1.2);
 	cursor: pointer;
 }
@@ -32,3 +32,7 @@
 	overflow: auto;
 }
 
+#Tabla_Info #Img_Logo{
+	height: 400px;
+	width: 300px;
+}
