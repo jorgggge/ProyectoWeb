@@ -1,11 +1,20 @@
+#Cuerpo{
+	background-image: url('M.png');
+	background-size: 70px;
+}
+
+
+
+
 #Tabla_Nav{
 
 	position: absolute;
 	top: 9%;
-	background-color: #389438;
-	left: 1%;
-	width:10%;
+	background-color: #4D5656;
+	left: 2%;
+	width:8%;
 	height: 87%;
+	border-radius: 15px 0px 0px 15px;
 }
 
 #Tabla_Nav tr td{
@@ -26,10 +35,12 @@
 #M,#L,#P,#T,#B{
 	position: absolute;
 	top: 9%;
-	left: 11%;
+	left: 10%;
 	width:88%;
 	height: 87%;
 	overflow: auto;
+	background: #B3B6B7;
+	border-radius: 0px 15px 15px 0px;
 }
 
 #Tabla_Info #Img_Logo{
