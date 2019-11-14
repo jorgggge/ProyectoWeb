@@ -1,10 +1,11 @@
 #Cuerpo{
-	background-image: url('M.png');
-	background-size: 70px;
+
 }
 
 
-
+p{
+	text-align: justify;
+}
 
 #Tabla_Nav{
 
@@ -44,6 +45,5 @@
 }
 
 #Tabla_Info #Img_Logo{
-	height: 400px;
-	width: 300px;
+	height: 100%;
 }

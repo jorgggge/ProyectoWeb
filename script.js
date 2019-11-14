@@ -21,27 +21,22 @@ function Info(Personaje)
 	if(Personaje == "M" )
 	{ 
 		$('#M').show(); 
-		document.getElementById('Cuerpo').style.backgroundImage = "url('M.png')";
 	}
 	if(Personaje == "L" )
 	{ 
 		$('#L').show(); 
-		document.getElementById('Cuerpo').style.backgroundImage = "url('L.png')";
 	}
 	if(Personaje == "T" )
 	{ 
 		$('#T').show(); 
-		document.getElementById('Cuerpo').style.backgroundImage = "url('T.png')";
 	}
 	if(Personaje == "P" )
 	{ 
-		$('#P').show();
-		document.getElementById('Cuerpo').style.backgroundImage = "url('P.png')";	
+		$('#P').show();	
 	}
 	if(Personaje == "B" )
 	{ 
 		$('#B').show();
-		document.getElementById('Cuerpo').style.backgroundImage = "url('B.png')";
 	}
 
 }
