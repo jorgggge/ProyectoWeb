@@ -22,11 +22,14 @@ body{
 
 #Tablero{
 	position: absolute;
-	background-color: black;
 	width:90%;
 	top: 100px;
 	left: 5%;
 	border-radius: 10px 10px 0px 0px;
+}
+
+thead{
+	background-color: black;
 }
 
 #Tablero thead{
@@ -39,7 +42,6 @@ body{
 }
 
 #Cuerpo{
-	position: absolute;
 	 width:98.3%;
 	 height: 700px;
 	 border-top: 0px;

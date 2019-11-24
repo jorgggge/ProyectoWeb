@@ -1,1 +1,277 @@
-<h1>Enemigos</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="EstilosE.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="Cabezera">
+<center><h1 style="color: white;">&#9733 &#9733 &#9733 &#9733 &#9733 &#9733 &#9733  WIKI SUPER MARIO BROS. &#9733 &#9733 &#9733 &#9733 &#9733 &#9733 &#9733</h1></center>
+</div>
+<table id="Tablero">
+	<thead>
+		<td><a href="index.html">Inicio</a></td>
+		<td><a href="Personajes.html">Personajes</a></td>
+		<td><a href="Enemigos.html">Enemigos</a></td>
+		<td>Niveles</td>
+		<td>Trucos</td>
+	</thead>
+	<tbody>
+		<td colspan="5">
+				<table id="Tabla_Nav">
+					<tr>
+						<td width="150px" style="height: 700px;" rowspan="5">
+							<marquee direction="up" behavior="alternate" style="height: 600px;font-family: Mario;">
+								<center>
+									<img src="imagenes/LG.png" height="90px" onclick="InfoEnemigos('LG');"><br><br>Little Goomba<br><br>
+									<img src="imagenes/KTV.png" height="90px" onclick="InfoEnemigos('KTV');"><br><br>Koopa Troopa (Verde)<br><br>
+									<img src="imagenes/KTR.png" height="90px" onclick="InfoEnemigos('KTR');"><br><br>Koopa Troopa (Rojo)<br><br>
+									<img src="imagenes/KTVV.jpg" height="90px" onclick="InfoEnemigos('KTVV');"><br><br>Koopa Paratroopa (Verde)<br><br>
+									<img src="imagenes/KTVR.jpg" height="90px" onclick="InfoEnemigos('KTVR');"><br><br>Koopa Paratroopa (Rojo)<br><br>
+									<img src="imagenes/HB.jpg" height="90px" onclick="InfoEnemigos('HB');"><br><br>The Hammer Brothers<br><br>
+									<img src="imagenes/L.jpg" height="90px" onclick="InfoEnemigos('L');"><br><br>Lakitu<br><br>
+									<img src="imagenes/S.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Spiny<br><br>
+									<img src="imagenes/PP.png" height="90px" onclick="InfoEnemigos('M');"><br><br>Piranha plant<br><br>
+									<img src="imagenes/BB.jpg" height="90px" onclick="InfoEnemigos('BB');"><br><br>Buzzy Beetle<br><br>
+									<img src="imagenes/BV.png" height="50px" onclick="InfoEnemigos('M');"><br><br>Bullet Bill<br><br>
+									<img src="imagenes/CC.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Cheep Cheep<br><br>
+									<img src="imagenes/BL.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Bloober<br><br>
+									<img src="imagenes/PO.png" height="90px" onclick="InfoEnemigos('M');"><br><br>Podoboo<br><br>
+								</center>
+							</marquee>
+						</td>
+						<td rowspan="5">
+							<div id="LG">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/LG.png" style="height: 100px;"><h1>Little Goomba</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>Un hongo que traicionó el Reino Champiñón. Un pisotón y él muere.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/LGI.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/LGI2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+							
+							<div id="KTV">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/KTV.png" style="height: 100px;"><h1>Koopa Troopa (Verde)</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>
+														Soldado del Imperio Tortuga, sus órdenes son encontrar y destruir a Mario. Saltar
+														sobre él y deja de moverse por un rato.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/KTV1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/KTV2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+
+							<div id="KTR">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/KTR.png" style="height: 100px;"><h1>Koopa Troopa (Rojo)</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>
+														¡Esta tortuga es gallina! Muy tímido, se asusta fácilmente y corre hacia atrás y adelante. Salta sobre él y deja de moverse por un tiempo.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/KTR1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/KTR2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+
+							<div id="KTVV">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/KTVVL.jpg" style="height: 100px;"><h1>Koopa Paratroopa (Verde)</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>
+														Un poco fuera de control, alas alrededor sin rumbo y viene a todos un Repentino. Salta sobre él y pierde sus alas.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/KTVV1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/KTVV2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+
+							<div id="KTVR">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/KTVRL.jpg" style="height: 100px;"><h1>Koopa Paratroopa (Rojo)</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>
+														
+														Esta tortuga está bajo control, pero le gusta tomarse las cosas con calma. Pisotearlo y
+														él pierde sus alas.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/KTVR1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/KTVR2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+
+							<div id="BB">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/BBL.jpg" style="height: 100px;"><h1>Buzzy Beetle</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>Muy resistente, las bolas de fuego ni siquiera lo desconciertan.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/BB1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/BB2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+
+							<div id="HB">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/HBL.jpg" style="height: 100px;"><h1>The Hammer Brothers</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>Estas astutas tortugas gemelas vienen a ti lanzando martillos.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/HB1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/HB2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+
+							<div id="L">
+								<article>
+									<table width="90%" style="margin: 0px auto;" id="Tabla_Info">
+										<tr>
+											<td colspan="2">
+												<center><br><img id="Img_Logo" src="imagenes/LL.jpg" style="height: 100px;"><h1>The Hammer Brothers</h1></center>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<center>
+													<p>La tortuga misteriosa que controla las nubes. Persigue a Mario y cae
+														Los huevos de Spiny encima de él.</p>
+												</center>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="imagenes/L1.png" style="position: relative;" height="250px"></td>
+											<td><img src="imagenes/LL2.png" style="position: relative;" height="250px"></td>
+										</tr>
+									</table>
+								</article>
+							</div>
+						</td>
+						<td width="150px" style="height: 700px;" rowspan="5">
+							<marquee direction="down" behavior="alternate" style="height: 600px;font-family: Mario;">
+								<center>
+									<img src="imagenes/LG.png" height="90px" onclick="InfoEnemigos('M');"><br><br>Little Goomba<br><br>
+									<img src="imagenes/KTV.png" height="90px" onclick="InfoEnemigos('L');"><br><br>Koopa Troopa (Verde)<br><br>
+									<img src="imagenes/KTR.png" height="90px" onclick="InfoEnemigos('T');"><br><br>Koopa Troopa (Rojo)<br><br>
+									<img src="imagenes/KTVV.jpg" height="90px" onclick="InfoEnemigos('P');"><br><br>Princesa<br><br>
+									<img src="imagenes/KTVR.jpg" height="90px" onclick="InfoEnemigos('B');"><br><br>Bowser<br><br>
+									<img src="imagenes/HB.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>The Hammer Brothers<br><br>
+									<img src="imagenes/L.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Lakitu<br><br>
+									<img src="imagenes/S.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Spiny<br><br>
+									<img src="imagenes/PP.png" height="90px" onclick="InfoEnemigos('M');"><br><br>Piranha plant<br><br>
+									<img src="imagenes/BB.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Buzzy Beetle<br><br>
+									<img src="imagenes/BV.png" height="50px" onclick="InfoEnemigos('M');"><br><br>Bullet Bill<br><br>
+									<img src="imagenes/CC.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Cheep Cheep<br><br>
+									<img src="imagenes/BL.jpg" height="90px" onclick="InfoEnemigos('M');"><br><br>Bloober<br><br>
+									<img src="imagenes/PO.png" height="90px" onclick="InfoEnemigos('M');"><br><br>Podoboo<br><br>
+								</center>
+							</marquee>
+						</td>
+					</tr>
+					
+				</table>
+
+				
+
+				</div>
+			
+		</td>
+	</tbody>
+</table>
+
+<div id="Pie"></div>
+
+
+</body>
+</html>

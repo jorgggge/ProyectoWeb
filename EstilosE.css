@@ -2,11 +2,6 @@
 
 }
 
-
-p{
-	text-align: justify;
-}
-
 #Tabla_Nav{
 	background-color: #4D5656;
 	width:100%;
@@ -29,22 +24,34 @@ p{
 	cursor: pointer;
 }
  
-#M,#L,#P,#T,#B{
+#KTV,#KTR,#KTVV,#KTVR,#BB,#HB,#L{
 	width:95%;
 	margin-left: 2%; 
 	height: 87%;
 	overflow: auto;
 	background: #B3B6B7;
 	border-radius: 15px;
+	text-align: center;
+	display: none;
 }
 
-#Tabla_Info #Img_Logo{
-	width:70%;
+
+#LG{
+	width:95%;
+	margin-left: 2%; 
+	height: 87%;
+	overflow: auto;
+	background: #B3B6B7;
+	border-radius: 15px;
+	text-align: center;
 }
+
+
+
 
 #Tabla_Info tr td{
 	color: black;
-	text-align: justify;
+	text-align: center;
 }
 
 h1{
